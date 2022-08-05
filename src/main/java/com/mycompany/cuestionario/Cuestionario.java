@@ -7,7 +7,7 @@ package com.mycompany.cuestionario;
 
 /**
  *
- * @author th3tici
+ * @author admin
  */
 public class Cuestionario {
 

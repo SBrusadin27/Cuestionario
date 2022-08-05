@@ -6,7 +6,7 @@ package Pantallas;
 
 /**
  *
- * @author th3tici
+ * @author admin
  */
 public class Bienvenida extends javax.swing.JFrame {
 

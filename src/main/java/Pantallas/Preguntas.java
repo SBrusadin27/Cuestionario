@@ -9,7 +9,7 @@ import java.util.Random;
 
 /**
  *
- * @author th3tici
+ * @author admin
  */
 public class Preguntas extends javax.swing.JFrame {
     Random numeroAleatorio;
@@ -23,16 +23,16 @@ public class Preguntas extends javax.swing.JFrame {
     public Preguntas() {
         initComponents();
         preguntas = new Cuestionario [10];
-        preguntas[0] = new Cuestionario("El lenguaje de programacion es la herramienta de comunicacion entre Usuario-Maquina", "True");
-        preguntas[1] = new Cuestionario("Java es un lenguaje orientado a Objetos", "True");
-        preguntas[2] = new Cuestionario("Hola", "True");
-        preguntas[3] = new Cuestionario("Hola?", "True");
-        preguntas[4] = new Cuestionario("Hola?", "True");
-        preguntas[5] = new Cuestionario("Hola?", "True");
-        preguntas[6] = new Cuestionario("Hola?", "True");
-        preguntas[7] = new Cuestionario("Hola?", "True");
-        preguntas[8] = new Cuestionario("Hola?", "True");
-        preguntas[9] = new Cuestionario("Hola?", "True");
+        preguntas[0] = new Cuestionario("Java es un Lenguaje Orientado A Objetos solamente", "false");
+        preguntas[1] = new Cuestionario("Si necesitamos que el usuario ingrese un numero entero usamos float", "false");
+        preguntas[2] = new Cuestionario("python es un lenguaje de bajo nivel que se utiliza para desarrolar apps", "false");
+        preguntas[3] = new Cuestionario("Con C++ podemos desarrollar un juego como Minecraft Windows 10", "True");
+        preguntas[4] = new Cuestionario("Python es un lenguaje multiparadigma(Orientado a objetos, imperativo, funcional y reflexivo)", "True");
+        preguntas[5] = new Cuestionario("C++ fue diseñado en 1949", "false");
+        preguntas[6] = new Cuestionario("Los atributos son porciones de informacion que un objeto conoce de si mismo", "True");
+        preguntas[7] = new Cuestionario("El toString sirve para almacenar informacion y no mostrarla al usuario", "false");
+        preguntas[8] = new Cuestionario("En Python para mostrar algo al usuario se utiliza printf", "false");
+        preguntas[9] = new Cuestionario("El Hardware es la parte logica de la computadora", "false");
         numeroAleatorio = new Random();
         
         cantPreguntas = 0; 

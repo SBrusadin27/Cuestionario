@@ -6,7 +6,7 @@ package Pantallas;
 
 /**
  *
- * @author th3tici
+ * @author admin
  */
 public class Resultado extends javax.swing.JFrame {
     
